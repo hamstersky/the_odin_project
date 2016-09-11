@@ -1,0 +1,148 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 40px;
+  float: left;
+  font-family: helvetica;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100px;
+  background: #474747;
+  color: #E5E0E0;
+}
+
+header h1 {
+  margin-left: 42%;
+}
+
+header h3 {
+  margin-left: 44%;
+}
+
+#logo {
+  float: left;
+  margin: 10px 0 0 10px;
+  vertical-align: middle;
+  display: inline;
+}
+
+#logo span {
+  vertical-align: middle;
+}
+
+#logo img{
+  height: 30px; 
+  width: 30px;
+  margin-right: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+
+#logo a {
+  color: #E5E0E0;
+  text-decoration: none;
+}
+
+/* Problems */
+
+.container {
+  margin-left: 4%;
+}
+
+.problem {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  min-height: 340px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #8081D1;
+  border-radius: 5px;
+  line-height: 1.5em;
+  background: #A5A6DB;
+}
+
+.problem p {
+  margin-bottom: 60px;
+}
+
+.problem input {
+  width: 90px;
+}
+
+button {
+  border: 1px solid #758F97;
+  border-radius: 5px;
+  background: #8AA7B1;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 15px;
+  left: 40%;
+}
+
+button:hover {
+  background: #ABC7D0;
+}
+
+#output {
+  clear: both;
+  margin-left: 44%;
+  font-size: 32px;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  background: #474747;
+  color: #E5E0E0;
+  font-size: 13px;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+footer li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #CACACA;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}

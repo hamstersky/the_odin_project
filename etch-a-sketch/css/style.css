@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #88F1FA;
+}
+
+#etch-a-sketch {
+  width: 550px;
+  height: 550px;
+  background: red;
+  margin: 13px auto 0;
+  text-align: center;
+  color: #EDC214;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: arial;
+  border-radius: 20px;
+}
+
+#etch-a-sketch span {
+  font-family: 'Qwigley', cursive;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0 20px 0;
+}
+
+button {
+  border: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-top: 13px;
+  padding: 5px;
+  outline: none;
+}
+
+button:hover {
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  transition: transform 1s ease;
+}
+
+#clear {
+  float: left;
+  margin-left: 20px;
+}
+
+#gridSize {
+  float: right;
+  margin-right: 20px;
+}
+
+#etch-screen {
+  height: 400px;
+  width: 400px;
+  font-size: 0;
+  margin: 0 auto 0;
+  background: #999;
+}
+
+.tile {
+  background: #999;
+  display: inline-block;
+  box-sizing: border-box;
+}

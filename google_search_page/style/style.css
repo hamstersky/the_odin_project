@@ -1,0 +1,133 @@
+/* General */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: arial;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Header & navbar */
+
+header {
+  width: 100%;
+  height: 120px;
+}
+
+nav {
+  width: 100%;
+  height: 59px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ebebeb;
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  bottom: 60px;
+}
+
+nav li {
+  padding-left: 12px;
+}
+
+#logo {
+  width: 90px;
+  height: 31px;
+  float: left;
+  margin: 15px 11px 0 15px;
+}
+
+#search-bar {
+  width: 600px;
+  height: 42px;
+  font-size: 16px;
+  padding-left: 6px;
+  margin: 1px 0 0 10px;
+  border: 1px solid #dcdcdc;
+  background: url("../images/mic.png") no-repeat 565px;
+  background-size: 24px 24px;
+  background-color: #fff;
+}
+
+#search-button {
+  border: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  height: 40px;
+  width: 40px;
+  background: url("../images/google_search.png") no-repeat;
+  background-size: 40px 40px;
+  position: relative;
+  top: 14px;
+  left: -4px;
+}
+
+#menu {
+  height: 45px;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 13px;
+}
+
+#menu a {
+  color: #777;
+}
+
+#menu ul{
+  list-style: none;
+  margin-left: 85px;
+  padding-top: 8px;
+}
+
+#menu li {
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#active {
+  font-weight: 700;
+  border-bottom: 3px solid #4285f4;
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+#active a {
+  color: #4285f4;
+}
+
+#sign-in {
+  border: 0;
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  border-radius: 2px;
+  padding: 7px 11px;
+  font-weight: 700;
+}
+
+#sign-in a{
+  color: #fff;
+}
+
+#apps {
+  position: relative;
+  top: 11px;
+  opacity: .5;
+}
+
+/* Search results */
