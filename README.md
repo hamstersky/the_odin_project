@@ -1,13 +1,11 @@
-<h1>The Odin Project</h1>
+# The Odin Project
 
-<p>My solutions to exercies from <a href="http://www.theodinproject.com/">The Odin Project course</a></p>
+My solutions to exercies from [The Odin Project course](http://www.theodinproject.com/)
 
-<h2>List of completed projects</h2>
+## List of completed projects
 
-<h3>Web Development 101</h3>
+### Web Development 101
 
-<h4>HTML/CSS</h4>
+#### HTML/CSS
 
-<ul>
-  <li>[Google Homepage](google_homepage)</li>
-</ul>
+* [Google Homepage](google_homepage)
