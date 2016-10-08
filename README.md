@@ -33,8 +33,6 @@ My solutions to exercies from [The Odin Project course](http://www.theodinprojec
 ..* [Bubble Sort](ruby_building_blocks/bubble_sort.rb)
 ..* [Enumerable methods](ruby_building_blocks/enumerable_methods.rb)
 
-* [Ruby Euler]
-
 ### OOP
 
 * [Tic Tac Toe](tictactoe)
