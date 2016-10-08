@@ -27,11 +27,11 @@ My solutions to exercies from [The Odin Project course](http://www.theodinprojec
 ### Builiding Blocks
 
 * [Building blocks](ruby_building_blocks)
-..* [Caesar Cipher](ruby_building_blocks/caesar_cipher.rb)
-..* [Stock Picker](ruby_building_blocks/stock_picker.rb)
-..* [Substrings](ruby_building_blocks/substrings.rb)
-..* [Bubble Sort](ruby_building_blocks/bubble_sort.rb)
-..* [Enumerable methods](ruby_building_blocks/enumerable_methods.rb)
+  * [Caesar Cipher](ruby_building_blocks/caesar_cipher.rb)
+  * [Stock Picker](ruby_building_blocks/stock_picker.rb)
+  * [Substrings](ruby_building_blocks/substrings.rb)
+  * [Bubble Sort](ruby_building_blocks/bubble_sort.rb)
+  * [Enumerable methods](ruby_building_blocks/enumerable_methods.rb)
 
 ### OOP
 
