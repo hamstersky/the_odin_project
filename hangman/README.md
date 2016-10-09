@@ -1,7 +1,6 @@
 # Hangman
 
-Implementation of the popular Hangman game in Ruby for a project from [The Odin Project](www.theodinproject.com).
-
+Implementation of the popular Hangman game in Ruby for a project from <a href="www.theodinproject.com">The Odin Project</a>.
 ## Goal
 
 The goal of this project was to practice serialization and working with files. This implementation of Hangman allows the player to save the state of the game at any point and load it afterwards. The saved state is stored in a YAML file using Ruby's YAML library.
