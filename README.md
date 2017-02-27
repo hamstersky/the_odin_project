@@ -42,3 +42,5 @@ My solutions to exercies from [The Odin Project course](http://www.theodinprojec
 
 * [Event Manager](event_manager)
 
+### Ruby on the Web
+* [Web Server](web_server)
