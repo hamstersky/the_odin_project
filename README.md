@@ -44,3 +44,7 @@ My solutions to exercies from [The Odin Project course](http://www.theodinprojec
 
 ### Ruby on the Web
 * [Web Server](web_server)
+
+### A bit of Computer Science
+* [Recursion](recursion)
+* [Linked lists](linked_lists)
