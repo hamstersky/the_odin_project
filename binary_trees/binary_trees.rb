@@ -70,7 +70,7 @@ class BinarySearchTree
   def dfs_rec(data, root = @root)
     return if root == nil
     return root if root.value == data
-    dfs(data, root.left)
-    dfs(data, root.right)
+    dfs_rec(data, root.left)
+    dfs_rec(data, root.right)
   end
 end
