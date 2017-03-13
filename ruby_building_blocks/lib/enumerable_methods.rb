@@ -1,13 +1,13 @@
 module Enumerable
 	def my_each
-		return self unless block_given?
+		return self.to_enum(:my_each) unless block_given?
 		for i in self
 			yield(i)
 		end
 	end
 
 	def my_each_with_index
-		return self unless block_given?
+		return self.to_enum(:my_each_with_index) unless block_given?
 		index = 0
 		for i in self
 			yield(i, index)
@@ -16,7 +16,7 @@ module Enumerable
 	end
 
 	def my_select
-		return self unless block_given?
+		return self.to_enum(:my_select) unless block_given?
 		result = []
 		self.my_each { |x| result << x if yield(x) }
 		result
@@ -24,7 +24,7 @@ module Enumerable
 
 	def my_all?
 		if block_given?
-			self.my_each { |x| return false unless yield(x) } 
+			self.my_each { |x| return false unless yield(x) }
 		else
 			self.my_each { |x| return false unless x }
 		end
@@ -62,7 +62,7 @@ module Enumerable
 	end
 
 	def my_map
-		return self unless block_given?
+		return self.to_enum(:my_map) unless block_given?
 		new_array = []
 		self.my_each { |x| new_array << yield(x) }
 		new_array
@@ -76,7 +76,7 @@ module Enumerable
 		elsif proc && !block_given?
 			self.my_each { |x| new_array << proc.call(x) }
 		else
-			return self
+			return self.to_enum(:my_map_with_proc_and_block)
 		end
 		new_array
 	end
